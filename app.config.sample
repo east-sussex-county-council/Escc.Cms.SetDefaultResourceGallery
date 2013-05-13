@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configuration>
+    <appSettings>
+        <add key="CmsAdminUser" value="username" />
+        <add key="CmsAdminPassword" value="password" />
+        <add key="CmsAdminDomain" value="domain" />
+    </appSettings>
+    <connectionStrings>
+        <add name="CMSDB" connectionString="connection string" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+    </startup>
+</configuration>
